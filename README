@@ -1,0 +1,10 @@
+header.vim
+==========
+
+a plugin of vim
+
+" SUMMARY:  When a new file is created a header is added on the top too.
+"           If the file already exists, the pluging update the field 'date of
+"           the last modification'.
+" INSTALL:  Easy! Copy the file to vim's plugin directory (global or personal)
+"           and run vim.
