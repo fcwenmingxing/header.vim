@@ -6,5 +6,10 @@ a plugin of vim
 " SUMMARY:  When a new file is created a header is added on the top too.
 "           If the file already exists, the pluging update the field 'date of
 "           the last modification'.
-" INSTALL:  Easy! Copy the file to vim's plugin directory (global or personal)
+" INSTALL:  Easy!
+            1. Copy the file to vim's plugin directory (global or personal)
 "           and run vim.
+            2. set .vimrc:
+                let g:user_company = 'your_company'
+                let g:user_name = 'your_name'
+                let g:user_email = 'your_email@host.com'
